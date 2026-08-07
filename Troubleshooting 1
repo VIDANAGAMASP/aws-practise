@@ -22,3 +22,5 @@
 -It works
 #Conclusion
 -Path should be absolute since it seems when a cron job doesnt inherit path variables.
+
+//Important commands learned// 'crontab -l'  'sudo cp your_script.sh /etc/cron.daily/'
