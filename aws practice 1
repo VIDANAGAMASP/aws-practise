@@ -1,7 +1,0 @@
-#Creating key value pair
-
-#Action
--aws configure
-
-#Action
--aws ec2 create-key-pair --key-name  devops-kp --key-type rsa --region us-east-1 
