@@ -1,0 +1,25 @@
+#Issue
+-Cron job is not producing required text output
+
+#Action
+-run the script manually and see wwhether it is run
+#Observation
+-It works but no output
+
+#Action 
+-get contents of the script
+#Observation
+-Seems fine. Only observable issues are date command and path to text file is not absolute.
+
+#Action
+-So make path to date /usr/bin/date
+#Observation
+-No difference
+
+#Action
+-Make path to file absolute
+#Observation
+-It works
+#Conclusion
+-Path should be absolute since it seems when a cron job doesnt inherit path variables.
+
